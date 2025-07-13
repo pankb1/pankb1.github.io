@@ -28,7 +28,7 @@ const HeroSection = () => {
           </div>
           
           <p className="text-xl md:text-2xl mb-8 opacity-95 max-w-2xl mx-auto leading-relaxed">
-            Premium Indian Rice Exports to Gulf Countries
+            Premium Indian Rice Exports
             <span className="block mt-2 text-lg opacity-80">
               Quality • Trust • Global Reach
             </span>
