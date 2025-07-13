@@ -1,3 +1,4 @@
+
 import { Target, Users, Award, Globe } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
@@ -55,8 +56,8 @@ const AboutSection = () => {
           
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1469041797191-50ace28483c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
-              alt="Rice fields representing our agricultural heritage"
+              src="https://images.unsplash.com/photo-1586201375761-83865001e31c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+              alt="Premium quality rice grains ready for export"
               className="rounded-lg shadow-2xl"
             />
             <div className="absolute -bottom-6 -right-6 bg-white rounded-lg p-6 shadow-xl">
