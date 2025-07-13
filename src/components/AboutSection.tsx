@@ -1,4 +1,3 @@
-
 import { Target, Users, Award, Globe } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
@@ -11,7 +10,7 @@ const AboutSection = () => {
     },
     {
       icon: Users,
-      title: "Customer Focus",
+      title: "Customer Focus", 
       description: "Building lasting relationships with our international clients through reliable service and consistent quality delivery."
     },
     {
@@ -22,7 +21,7 @@ const AboutSection = () => {
     {
       icon: Globe,
       title: "Global Reach",
-      description: "Specializing in exports to Gulf countries with deep understanding of regional preferences and requirements."
+      description: "Serving customers worldwide with deep understanding of regional preferences and international requirements."
     }
   ];
 
@@ -42,10 +41,10 @@ const AboutSection = () => {
               Your Trusted Rice Export Partner
             </h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Baghele Enterprises & Company has established itself as a reliable exporter of high-quality Indian rice to Gulf countries. With our APEDA certification and valid Import-Export Code, we ensure that every shipment meets the stringent quality standards expected by our international clients.
+              Baghele Enterprises & Company has established itself as a reliable exporter of high-quality Indian rice to customers worldwide. With our APEDA certification and valid Import-Export Code, we ensure that every shipment meets the stringent quality standards expected by our international clients.
             </p>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Our deep-rooted understanding of rice cultivation, processing, and export logistics allows us to deliver consistent quality that has earned the trust of buyers across the Gulf region. We source our rice from the finest agricultural regions of India, ensuring that each grain meets our exacting standards.
+              Our deep-rooted understanding of rice cultivation, processing, and export logistics allows us to deliver consistent quality that has earned the trust of buyers worldwide. We source our rice from the finest agricultural regions of India, ensuring that each grain meets our exacting standards.
             </p>
             <div className="bg-primary/10 rounded-lg p-6 border-l-4 border-primary">
               <p className="text-primary font-semibold text-lg">
