@@ -1,4 +1,3 @@
-
 import { Wheat, Star, Package } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -9,19 +8,19 @@ const ProductsSection = () => {
       name: "Basmati Rice",
       description: "Premium long-grain aromatic rice, perfect for special occasions and fine dining.",
       features: ["Extra Long Grain", "Aromatic", "Aged", "Premium Quality"],
-      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+      image: "https://images.unsplash.com/photo-1586201375761-83865001e31c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
-      name: "Non-Basmati Rice",
+      name: "Non-Basmati Rice", 
       description: "High-quality parboiled and raw rice varieties suitable for everyday consumption.",
       features: ["Nutritious", "Cost-Effective", "Various Grades", "Bulk Available"],
-      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+      image: "https://images.unsplash.com/photo-1596040033229-a9821ebc227d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
       name: "Jasmine Rice",
       description: "Fragrant medium-grain rice with a subtle floral aroma and soft texture.",
       features: ["Fragrant", "Soft Texture", "Medium Grain", "Premium"],
-      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+      image: "https://images.unsplash.com/photo-1515543904379-3d0e2d4d4555?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     }
   ];
 
