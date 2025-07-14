@@ -14,13 +14,13 @@ const ProductsSection = () => {
       name: "Non-Basmati Rice", 
       description: "High-quality parboiled and raw rice varieties suitable for everyday consumption.",
       features: ["Nutritious", "Cost-Effective", "Various Grades", "Bulk Available"],
-      image: "src/components/non-paraboiled_rice.jpg"
+      image: "https://github.com/pankb1/baghele-rice-exports-website/src/components/non-paraboiled_rice.jpg"
     },
     {
       name: "Paraboiled Rice",
       description: "Fragrant medium-grain rice with a subtle floral aroma and soft texture.",
       features: ["Fragrant", "Soft Texture", "Medium Grain", "Premium"],
-      image: "src/components/240_F_1480127369_QOQ0BpGAcAo0UdjSe0QELhc6OgYAJoPy.jpg"
+      image: "https://github.com/pankb1/baghele-rice-exports-website/src/components/240_F_1480127369_QOQ0BpGAcAo0UdjSe0QELhc6OgYAJoPy.jpg"
     }
   ];
 
