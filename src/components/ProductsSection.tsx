@@ -20,7 +20,7 @@ const ProductsSection = () => {
       name: "Paraboiled Rice",
       description: "Fragrant medium-grain rice with a subtle floral aroma and soft texture.",
       features: ["Fragrant", "Soft Texture", "Medium Grain", "Premium"],
-      image: "https://www.nextinlime.com/wp-content/uploads/2023/04/parboiled-rice.jpg"
+      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     }
   ];
 
