@@ -17,10 +17,10 @@ const ProductsSection = () => {
       image: "https://images.unsplash.com/photo-1596040033229-a9821ebc227d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
-      name: "Jasmine Rice",
+      name: "Paraboiled Rice Rice",
       description: "Fragrant medium-grain rice with a subtle floral aroma and soft texture.",
       features: ["Fragrant", "Soft Texture", "Medium Grain", "Premium"],
-      image: "https://images.unsplash.com/photo-1515543904379-3d0e2d4d4555?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+      image: "https://www.shutterstock.com/image-photo/parboiled-rice-background-texture-1649170468"
     }
   ];
 
