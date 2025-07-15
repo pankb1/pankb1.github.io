@@ -122,7 +122,7 @@ ${formData.message}
                 <div className="space-y-2">
                   <div className="flex justify-between">
                     <span className="text-gray-600">Monday - Sunday</span>
-                    <span className="font-medium">9:00 AM - 10:00 PM</span>
+                    <span className="font-medium">9:00 AM - 7:00 PM</span>
                   </div>
                   
                   
