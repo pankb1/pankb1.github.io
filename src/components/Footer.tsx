@@ -32,6 +32,9 @@ const Footer = () => {
               <Award className="h-4 w-4" />
               <span>APEDA Certified • IE Code Valid</span>
             </div>
+            <div className="flex items-center space-x-2 text-sm text-gray-300 mt-2">
+              <span>GST: 27BBKPB6606B1Z3</span>
+            </div>
           </div>
 
           {/* Quick Links */}
