@@ -1,25 +1,23 @@
-
 import { Mail, Phone, MapPin, Globe, Award } from 'lucide-react';
-
 const Footer = () => {
-  const quickLinks = [
-    { name: 'About Us', href: '#about' },
-    { name: 'Products', href: '#products' },
-    { name: 'Export Process', href: '#process' },
-    { name: 'Certifications', href: '#certifications' },
-    { name: 'Contact', href: '#contact' }
-  ];
-
-  const products = [
-    'Basmati Rice',
-    'Non-Basmati Rice', 
-    'Jasmine Rice',
-    'Parboiled Rice',
-    'Custom Specifications'
-  ];
-
-  return (
-    <footer className="bg-gray-900 text-white">
+  const quickLinks = [{
+    name: 'About Us',
+    href: '#about'
+  }, {
+    name: 'Products',
+    href: '#products'
+  }, {
+    name: 'Export Process',
+    href: '#process'
+  }, {
+    name: 'Certifications',
+    href: '#certifications'
+  }, {
+    name: 'Contact',
+    href: '#contact'
+  }];
+  const products = ['Basmati Rice', 'Non-Basmati Rice', 'Jasmine Rice', 'Parboiled Rice', 'Custom Specifications'];
+  return <footer className="bg-gray-900 text-white">
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -40,16 +38,11 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              {quickLinks.map((link, index) => (
-                <li key={index}>
-                  <a 
-                    href={link.href} 
-                    className="text-gray-300 hover:text-primary transition-colors"
-                  >
+              {quickLinks.map((link, index) => <li key={index}>
+                  <a href={link.href} className="text-gray-300 hover:text-primary transition-colors">
                     {link.name}
                   </a>
-                </li>
-              ))}
+                </li>)}
             </ul>
           </div>
 
@@ -57,11 +50,9 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Our Products</h4>
             <ul className="space-y-2">
-              {products.map((product, index) => (
-                <li key={index} className="text-gray-300">
+              {products.map((product, index) => <li key={index} className="text-gray-300">
                   {product}
-                </li>
-              ))}
+                </li>)}
             </ul>
           </div>
 
@@ -79,19 +70,13 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-primary" />
-                <a 
-                  href="tel:+919673949795" 
-                  className="text-gray-300 hover:text-primary transition-colors"
-                >
+                <a href="tel:+919673949795" className="text-gray-300 hover:text-primary transition-colors">
                   +91 9673949795
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-primary" />
-                <a 
-                  href="mailto:bagheleenterprise@gmail.com" 
-                  className="text-gray-300 hover:text-primary transition-colors"
-                >
+                <a href="mailto:bagheleenterprise@gmail.com" className="text-gray-300 hover:text-primary transition-colors">
                   bagheleenterprise@gmail.com
                 </a>
               </div>
@@ -108,9 +93,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="text-gray-400 text-sm">
-              © 2024 Baghele Enterprises & Company. All rights reserved.
-            </div>
+            <div className="text-gray-400 text-sm">© 2025 Baghele Enterprises & Company. All rights reserved.</div>
             <div className="flex items-center space-x-6 text-sm text-gray-400">
               <span>Quality Assured</span>
               <span>•</span>
@@ -121,8 +104,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
