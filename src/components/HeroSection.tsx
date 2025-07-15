@@ -33,10 +33,7 @@ const HeroSection = () => {
               <Globe className="mr-2 h-5 w-5" />
               View Products
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary px-8 py-3">
-              Get Export Quote
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+            
           </div>
 
           {/* Key Features */}
