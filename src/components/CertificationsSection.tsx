@@ -22,6 +22,7 @@ const CertificationsSection = () => {
       color: "bg-blue-500"
     }
   ];
+  
   const qualityStandards = [
     { standard: "ISO 22000", description: "Food Safety Management System" },
     { standard: "HACCP", description: "Hazard Analysis Critical Control Points" },
