@@ -1,17 +1,11 @@
-
 import { ArrowRight, Globe, Award } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-
 const HeroSection = () => {
-  return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1586201375761-83865001e31c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80')`
-        }}
-      >
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
+      backgroundImage: `url('https://images.unsplash.com/photo-1586201375761-83865001e31c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80')`
+    }}>
         <div className="absolute inset-0 hero-gradient opacity-85" />
       </div>
 
@@ -54,7 +48,7 @@ const HeroSection = () => {
             </div>
             <div className="bg-white/10 backdrop-blur-md rounded-lg p-6 border border-white/20">
               <Globe className="h-8 w-8 mx-auto mb-3" />
-              <h3 className="font-semibold text-lg mb-2">Gulf Specialist</h3>
+              <h3 className="font-semibold text-lg mb-2">World wide</h3>
               <p className="text-sm opacity-90">Dedicated service to Gulf countries</p>
             </div>
             <div className="bg-white/10 backdrop-blur-md rounded-lg p-6 border border-white/20">
@@ -72,8 +66,6 @@ const HeroSection = () => {
           <div className="w-1 h-3 bg-white rounded-full mt-2 animate-pulse" />
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
