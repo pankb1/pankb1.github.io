@@ -20,7 +20,7 @@ const ProductsSection = () => {
       name: "Paraboiled Rice",
       description: "Fragrant medium-grain rice with a subtle floral aroma and soft texture.",
       features: ["Fragrant", "Soft Texture", "Medium Grain", "Premium"],
-      image: "https://www.vecteezy.com/photo/67755036-parboiled-rice-dry-food-close-up-texture"
+      image: "non-paraboiled_rice.jpg"
     }
   ];
 
