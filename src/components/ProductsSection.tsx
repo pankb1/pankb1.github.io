@@ -20,7 +20,7 @@ const ProductsSection = () => {
       name: "Paraboiled Rice",
       description: "Fragrant medium-grain rice with a subtle floral aroma and soft texture.",
       features: ["Fragrant", "Soft Texture", "Medium Grain", "Premium"],
-      image: "./non-paraboiled_rice.jpg"
+      image: non-paraboiled_rice.jpg
     }
   ];
 
