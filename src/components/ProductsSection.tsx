@@ -14,7 +14,7 @@ const ProductsSection = () => {
       name: "Non-Basmati Rice", 
       description: "High-quality parboiled and raw rice varieties suitable for everyday consumption.",
       features: ["Nutritious", "Cost-Effective", "Various Grades", "Bulk Available"],
-      image: non-paraboiled_rice.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80
+      image: non-paraboiled_rice.jpg
     },
     {
       name: "Paraboiled Rice",
