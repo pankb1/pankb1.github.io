@@ -29,12 +29,24 @@ const ContactSection = () => {
       return;
     }
 
-    // Here you would typically send the form data to your backend
-    console.log('Form submitted:', formData);
+    // Create email body with form data
+    const emailBody = `
+Name: ${formData.name}
+Email: ${formData.email}
+Country: ${formData.country || 'Not specified'}
+Product Interest: ${formData.productInterest || 'Not specified'}
+
+Message:
+${formData.message}
+    `.trim();
+
+    // Redirect to email client
+    const mailtoLink = `mailto:bagheleenterprise@gmail.com?subject=Rice Export Inquiry from ${formData.name}&body=${encodeURIComponent(emailBody)}`;
+    window.location.href = mailtoLink;
     
     toast({
-      title: "Inquiry Sent Successfully!",
-      description: "We'll get back to you within 24 hours.",
+      title: "Redirecting to Email",
+      description: "Your email client will open with the inquiry details.",
     });
     
     // Reset form
