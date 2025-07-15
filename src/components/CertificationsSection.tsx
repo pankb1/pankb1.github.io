@@ -102,23 +102,41 @@ const CertificationsSection = () => {
 
         {/* Trust Indicators */}
         <div className="mt-16 text-center bg-primary/5 rounded-2xl p-8">
-          <h3 className="text-2xl font-bold text-gray-900 mb-6">Trusted by International Buyers</h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-2">15+</div>
-              <div className="text-gray-600">Years Experience</div>
+          <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Commitment as a New Business</h3>
+          <p className="text-gray-600 mb-6 max-w-3xl mx-auto">
+            As a newly established rice export business, we are passionate about bringing premium Indian rice to international markets. 
+            While we may be new to the industry, our commitment to quality, transparency, and customer satisfaction drives everything we do.
+          </p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+            <div className="bg-white rounded-lg p-6 shadow-sm">
+              <div className="bg-primary/10 rounded-full p-3 w-fit mx-auto mb-4">
+                <Award className="h-6 w-6 text-primary" />
+              </div>
+              <h4 className="font-semibold text-gray-900 mb-2">Learning & Growing</h4>
+              <p className="text-gray-600 text-sm">
+                We are continuously learning from industry experts and investing in knowledge to provide the best service to our clients.
+              </p>
             </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-2">100%</div>
-              <div className="text-gray-600">Quality Assured</div>
+            
+            <div className="bg-white rounded-lg p-6 shadow-sm">
+              <div className="bg-primary/10 rounded-full p-3 w-fit mx-auto mb-4">
+                <CheckCircle className="h-6 w-6 text-primary" />
+              </div>
+              <h4 className="font-semibold text-gray-900 mb-2">Quality First</h4>
+              <p className="text-gray-600 text-sm">
+                Despite being new, we never compromise on quality. Every grain is carefully selected and processed to international standards.
+              </p>
             </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-2">50+</div>
-              <div className="text-gray-600">Happy Clients</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-2">1000+</div>
-              <div className="text-gray-600">Shipments</div>
+            
+            <div className="bg-white rounded-lg p-6 shadow-sm">
+              <div className="bg-primary/10 rounded-full p-3 w-fit mx-auto mb-4">
+                <Shield className="h-6 w-6 text-primary" />
+              </div>
+              <h4 className="font-semibold text-gray-900 mb-2">Building Trust</h4>
+              <p className="text-gray-600 text-sm">
+                We believe in transparency and building long-term relationships. Your success is our success, and we're here to grow together.
+              </p>
             </div>
           </div>
         </div>
