@@ -22,7 +22,12 @@ const CertificationsSection = () => {
       color: "bg-blue-500"
     }
   ];
-
+  const qualityStandards = [
+    { standard: "ISO 22000", description: "Food Safety Management System" },
+    { standard: "HACCP", description: "Hazard Analysis Critical Control Points" },
+    { standard: "BRC", description: "British Retail Consortium Global Standard" },
+    { standard: "Halal", description: "Halal Certification for Gulf Markets" }
+  ];
   return (
     <section id="certifications" className="py-20 bg-white">
       <div className="container mx-auto px-4">
