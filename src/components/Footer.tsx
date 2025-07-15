@@ -64,7 +64,7 @@ const Footer = () => {
                 <MapPin className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                 <div className="text-gray-300 text-sm">
                   Dongarla, Tahsil Tumsar<br />
-                  District Bhandara<br />
+                  District Bhandara(441912)<br />
                   Maharashtra, India
                 </div>
               </div>
