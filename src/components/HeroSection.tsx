@@ -48,7 +48,7 @@ const HeroSection = () => {
             </div>
             <div className="bg-white/10 backdrop-blur-md rounded-lg p-6 border border-white/20">
               <Globe className="h-8 w-8 mx-auto mb-3" />
-              <h3 className="font-semibold text-lg mb-2">World wide</h3>
+              <h3 className="font-semibold text-lg mb-2">Worldwide</h3>
               <p className="text-sm opacity-90">Dedicated service to Gulf countries</p>
             </div>
             <div className="bg-white/10 backdrop-blur-md rounded-lg p-6 border border-white/20">
