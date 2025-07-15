@@ -23,13 +23,6 @@ const CertificationsSection = () => {
     }
   ];
 
-  const qualityStandards = [
-    { standard: "ISO 22000", description: "Food Safety Management System" },
-    { standard: "HACCP", description: "Hazard Analysis Critical Control Points" },
-    { standard: "BRC", description: "British Retail Consortium Global Standard" },
-    { standard: "Halal", description: "Halal Certification for Gulf Markets" }
-  ];
-
   return (
     <section id="certifications" className="py-20 bg-white">
       <div className="container mx-auto px-4">
@@ -105,7 +98,8 @@ const CertificationsSection = () => {
           <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Commitment as a New Business</h3>
           <p className="text-gray-600 mb-6 max-w-3xl mx-auto">
             As a newly established rice export business, we are passionate about bringing premium Indian rice to international markets. 
-            While we may be new to the industry, our commitment to quality, transparency, and customer satisfaction drives everything we do.
+            While we may be new to the rice industry, our roots in business run deep. Since 1990, we have built a strong reputation as a trusted supplier of building materials and a manufacturer of high-quality bricks.
+            Drawing on over three decades of experience in delivering reliable products and excellent service, we are now extending our commitment to quality, transparency, and customer satisfaction into the global rice trade.
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
