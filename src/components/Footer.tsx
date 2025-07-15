@@ -80,9 +80,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Globe className="h-5 w-5 text-primary" />
-                <span className="text-gray-300 text-sm">
-                  Serving Gulf Countries
-                </span>
+                <span className="text-gray-300 text-sm">Serving Worldwide</span>
               </div>
             </div>
           </div>
