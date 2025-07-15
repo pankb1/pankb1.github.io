@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import { Menu, X, Phone, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   const navigation = [{
     name: 'Home',
     href: '#home'
@@ -22,11 +24,12 @@ const Header = () => {
     name: 'Contact',
     href: '#contact'
   }];
-  return <header className="fixed top-0 z-50 w-full bg-white/90 backdrop-blur-md shadow-sm">
+
+  return <header className="fixed top-0 z-50 w-full bg-gray-900/90 backdrop-blur-md shadow-sm text-white">
       <div className="container mx-auto px-4">
         {/* Top bar with contact info */}
-        <div className="border-b border-gray-100 py-2">
-          <div className="flex justify-between items-center text-sm text-gray-600">
+        <div className="border-b border-gray-700 py-2">
+          <div className="flex justify-between items-center text-sm text-gray-300">
             <div className="flex items-center space-x-4">
               <div className="flex items-center space-x-1">
                 <Mail className="h-4 w-4" />
@@ -49,12 +52,12 @@ const Header = () => {
             <h1 className="text-2xl font-bold text-primary">
               Baghele Enterprises
             </h1>
-            <span className="ml-2 text-sm text-gray-600">& Company</span>
+            <span className="ml-2 text-sm text-gray-300">& Company</span>
           </div>
 
           {/* Desktop navigation */}
           <nav className="hidden md:flex space-x-8">
-            {navigation.map(item => <a key={item.name} href={item.href} className="text-gray-700 hover:text-primary transition-colors font-medium">
+            {navigation.map(item => <a key={item.name} href={item.href} className="text-gray-300 hover:text-primary transition-colors font-medium">
                 {item.name}
               </a>)}
           </nav>
@@ -64,15 +67,15 @@ const Header = () => {
           </Button>
 
           {/* Mobile menu button */}
-          <Button variant="ghost" size="sm" className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+          <Button variant="ghost" size="sm" className="md:hidden text-white hover:bg-gray-800" onClick={() => setIsMenuOpen(!isMenuOpen)}>
             {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </Button>
         </div>
 
         {/* Mobile navigation */}
-        {isMenuOpen && <div className="md:hidden border-t border-gray-100">
+        {isMenuOpen && <div className="md:hidden border-t border-gray-700">
             <nav className="py-4 space-y-2">
-              {navigation.map(item => <a key={item.name} href={item.href} className="block px-4 py-2 text-gray-700 hover:text-primary hover:bg-gray-50 rounded-md transition-colors" onClick={() => setIsMenuOpen(false)}>
+              {navigation.map(item => <a key={item.name} href={item.href} className="block px-4 py-2 text-gray-300 hover:text-primary hover:bg-gray-800 rounded-md transition-colors" onClick={() => setIsMenuOpen(false)}>
                   {item.name}
                 </a>)}
               <Button asChild className="w-full mt-4">
@@ -83,4 +86,5 @@ const Header = () => {
       </div>
     </header>;
 };
+
 export default Header;
