@@ -71,10 +71,10 @@ const ProductsSection = () => {
       image: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     }
     {
-    name: "Fresh Ginger",
-    description: "Aromatic and nutrient-rich ginger, carefully harvested for export-quality freshness and flavor.",
-    features: ["Rich Aroma", "High Oil Content", "Naturally Dried", "Export Grade"],
-    image: "ginger.jpg"
+      name: "Fresh Ginger",
+      description: "Aromatic and nutrient-rich ginger, carefully harvested for export-quality freshness and flavor.",
+      features: ["Rich Aroma", "High Oil Content", "Naturally Dried", "Export Grade"],
+      image: "ginger.jpg"
    }
   ];
 
