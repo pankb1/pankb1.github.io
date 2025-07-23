@@ -40,7 +40,7 @@ ${formData.message}
     `.trim();
 
     // Redirect to email client
-    const mailtoLink = `mailto:bagheleenterprise@gmail.com?subject=Rice Export Inquiry from ${formData.name}&body=${encodeURIComponent(emailBody)}`;
+    const mailtoLink = `mailto:bagheleenterprises@gmail.com?subject=Rice Export Inquiry from ${formData.name}&body=${encodeURIComponent(emailBody)}`;
     window.location.href = mailtoLink;
     toast({
       title: "Redirecting to Email",
