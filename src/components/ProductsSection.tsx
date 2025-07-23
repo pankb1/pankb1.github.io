@@ -26,13 +26,13 @@ const ProductsSection = () => {
       name: "Dal (Pulses)",
       description: "High-protein lentils and pulses, essential for healthy nutrition and traditional cooking.",
       features: ["High Protein", "Rich in Fiber", "Various Types", "Export Quality"],
-      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+      image: "dal.jpg"
     },
     {
       name: "Fresh Onions",
       description: "Premium quality onions with excellent storage life and rich flavor profile.",
       features: ["Long Storage", "Rich Flavor", "Premium Grade", "Export Quality"],
-      image: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+      image: "onion.jpg"
     },
     {
       name: "Fresh Oranges",
@@ -44,25 +44,25 @@ const ProductsSection = () => {
       name: "Fresh Grapes",
       description: "Premium quality grapes with excellent sweetness and perfect texture.",
       features: ["Natural Sweet", "Premium Quality", "Fresh & Crisp", "Export Grade"],
-      image: "https://images.unsplash.com/photo-1537640538966-79f369143566?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+      image: "grapes.jpg"
     },
     {
       name: "Jaggery (Gur)",
       description: "Pure and natural jaggery made from sugarcane, rich in minerals and nutrients.",
       features: ["100% Natural", "Rich in Iron", "Traditional Process", "Chemical Free"],
-      image: "https://images.unsplash.com/photo-1609501676725-7186f4dc4e90?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+      image: "jaggery.jpg"
     },
     {
       name: "Premium Wheat",
       description: "High-quality wheat grains perfect for flour production and various food applications.",
       features: ["High Protein", "Premium Grade", "Clean & Sorted", "Export Quality"],
-      image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+      image: "wheat"
     },
     {
       name: "Refined Sugar",
       description: "Pure white refined sugar with consistent quality and crystal structure.",
       features: ["99.9% Pure", "Crystal White", "Food Grade", "Export Quality"],
-      image: "https://images.unsplash.com/photo-1516182806902-90e86c4a3bf1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+      image: "sugar"
     },
     {
       name: "Fresh Potatoes",
