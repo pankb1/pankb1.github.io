@@ -65,8 +65,8 @@ ${formData.message}
   const contactInfo = [{
     icon: Mail,
     title: "Email",
-    value: "bagheleenterprise@gmail.com",
-    link: "mailto:bagheleenterprise@gmail.com",
+    value: "bagheleenterprises@gmail.com",
+    link: "mailto:bagheleenterprises@gmail.com",
     color: "text-blue-600"
   }, {
     icon: Phone,
@@ -202,7 +202,7 @@ ${formData.message}
               </a>
             </Button>
             <Button asChild variant="outline" size="lg" className="px-8">
-              <a href="mailto:bagheleenterprise@gmail.com">
+              <a href="mailto:bagheleenterprises@gmail.com">
                 <Mail className="h-5 w-5 mr-2" />
                 Email Direct
               </a>
