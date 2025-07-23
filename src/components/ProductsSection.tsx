@@ -38,7 +38,7 @@ const ProductsSection = () => {
       name: "Fresh Oranges",
       description: "Juicy and sweet oranges packed with vitamin C and natural goodness.",
       features: ["Vitamin C Rich", "Fresh & Juicy", "Premium Grade", "Export Quality"],
-      image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+      image: "orange.jpg"
     },
     {
       name: "Fresh Grapes",
