@@ -56,13 +56,13 @@ const ProductsSection = () => {
       name: "Premium Wheat",
       description: "High-quality wheat grains perfect for flour production and various food applications.",
       features: ["High Protein", "Premium Grade", "Clean & Sorted", "Export Quality"],
-      image: "wheat"
+      image: "wheat.jpg"
     },
     {
       name: "Refined Sugar",
       description: "Pure white refined sugar with consistent quality and crystal structure.",
       features: ["99.9% Pure", "Crystal White", "Food Grade", "Export Quality"],
-      image: "sugar"
+      image: "sugar.jpg"
     },
     {
       name: "Fresh Potatoes",
