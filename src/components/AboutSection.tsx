@@ -33,9 +33,11 @@ const AboutSection = () => {
               Your Trusted Rice Export Partner
             </h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Baghele Enterprises & Company has established itself as a reliable exporter of high-quality Indian rice and a diverse range of agricultural products to customers worldwide. With our APEDA certification and valid Import-Export Code (IEC), we ensure that every shipment meets the stringent quality standards expected by our international clients.            </p>
+              Baghele Enterprises & Company has established itself as a reliable exporter of high-quality Indian rice and a diverse range of agricultural products to customers worldwide. With our APEDA certification and valid Import-Export Code (IEC), we ensure that every shipment meets the stringent quality standards expected by our international clients.    
+            </p>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Our deep-rooted understanding of rice cultivation, processing, and export logistics allows us to deliver consistent quality that has earned the trust of buyers across the globe. In addition to premium rice varieties, we also export sugar, jaggery, onions, potatoes, oranges, wheat, and a wide selection of pulses and dals, all sourced from the finest agricultural regions of India. This diversified offering enables us to serve as a one-stop solution for high-quality Indian agro-commodities, meeting the varied needs of our international partners with reliability and care.            </p>
+              Our deep-rooted understanding of rice cultivation, processing, and export logistics allows us to deliver consistent quality that has earned the trust of buyers across the globe. In addition to premium rice varieties, we also export sugar, jaggery, onions, potatoes, oranges, wheat, and a wide selection of pulses and dals, all sourced from the finest agricultural regions of India. This diversified offering enables us to serve as a one-stop solution for high-quality Indian agro-commodities, meeting the varied needs of our international partners with reliability and care.  
+            </p>
             <div className="bg-primary/10 rounded-lg p-6 border-l-4 border-primary">
               <p className="text-primary font-semibold text-lg">
                 "Quality is not just our standard—it's our promise to every customer worldwide."
