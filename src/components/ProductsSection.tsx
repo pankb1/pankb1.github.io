@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 
 const ProductsSection = () => {
-  const riceVarieties = [
+  const products = [
     {
       name: "Basmati Rice",
       description: "Premium long-grain aromatic rice, perfect for special occasions and fine dining.",
@@ -21,6 +21,54 @@ const ProductsSection = () => {
       description: "Fragrant medium-grain rice with a subtle floral aroma and soft texture.",
       features: ["Fragrant", "Soft Texture", "Medium Grain", "Premium"],
       image: "paraboiled_rice.jpg"
+    },
+    {
+      name: "Dal (Pulses)",
+      description: "High-protein lentils and pulses, essential for healthy nutrition and traditional cooking.",
+      features: ["High Protein", "Rich in Fiber", "Various Types", "Export Quality"],
+      image: "dal.jpg"
+    },
+    {
+      name: "Fresh Onions",
+      description: "Premium quality onions with excellent storage life and rich flavor profile.",
+      features: ["Long Storage", "Rich Flavor", "Premium Grade", "Export Quality"],
+      image: "onion.jpg"
+    },
+    {
+      name: "Fresh Oranges",
+      description: "Juicy and sweet oranges packed with vitamin C and natural goodness.",
+      features: ["Vitamin C Rich", "Fresh & Juicy", "Premium Grade", "Export Quality"],
+      image: "orange.jpg"
+    },
+    {
+      name: "Fresh Grapes",
+      description: "Premium quality grapes with excellent sweetness and perfect texture.",
+      features: ["Natural Sweet", "Premium Quality", "Fresh & Crisp", "Export Grade"],
+      image: "grapes.jpg"
+    },
+    {
+      name: "Jaggery (Gur)",
+      description: "Pure and natural jaggery made from sugarcane, rich in minerals and nutrients.",
+      features: ["100% Natural", "Rich in Iron", "Traditional Process", "Chemical Free"],
+      image: "jaggery.jpg"
+    },
+    {
+      name: "Premium Wheat",
+      description: "High-quality wheat grains perfect for flour production and various food applications.",
+      features: ["High Protein", "Premium Grade", "Clean & Sorted", "Export Quality"],
+      image: "wheat.jpg"
+    },
+    {
+      name: "Refined Sugar",
+      description: "Pure white refined sugar with consistent quality and crystal structure.",
+      features: ["99.9% Pure", "Crystal White", "Food Grade", "Export Quality"],
+      image: "sugar.jpg"
+    },
+    {
+      name: "Fresh Potatoes",
+      description: "Premium quality potatoes with excellent storage life and cooking properties.",
+      features: ["Long Storage", "Cooking Grade", "Premium Quality", "Export Grade"],
+      image: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     }
   ];
 
@@ -35,19 +83,19 @@ const ProductsSection = () => {
     <section id="products" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Premium Rice Collection</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Premium Product Collection</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We offer a carefully curated selection of premium Indian rice varieties, each meeting international quality standards and tailored for Gulf market preferences.
+            We offer a carefully curated selection of premium agricultural products including rice, pulses, fruits, vegetables, and other food commodities, each meeting international quality standards and tailored for Gulf market preferences.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          {riceVarieties.map((rice, index) => (
+          {products.map((product, index) => (
             <Card key={index} className="hover:shadow-xl transition-shadow duration-300 overflow-hidden">
               <div className="relative h-48 overflow-hidden">
                 <img
-                  src={rice.image}
-                  alt={rice.name}
+                  src={product.image}
+                  alt={product.name}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute top-4 right-4">
@@ -58,17 +106,17 @@ const ProductsSection = () => {
                 </div>
               </div>
               <CardHeader>
-                <CardTitle className="text-xl text-gray-900">{rice.name}</CardTitle>
+                <CardTitle className="text-xl text-gray-900">{product.name}</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 mb-4 leading-relaxed">{rice.description}</p>
+                <p className="text-gray-600 mb-4 leading-relaxed">{product.description}</p>
                 <div className="space-y-2">
                   <h5 className="font-semibold text-gray-900 flex items-center">
                     <Package className="h-4 w-4 mr-2" />
                     Key Features:
                   </h5>
                   <div className="flex flex-wrap gap-2">
-                    {rice.features.map((feature, featureIndex) => (
+                    {product.features.map((feature, featureIndex) => (
                       <Badge key={featureIndex} variant="secondary" className="text-xs">
                         {feature}
                       </Badge>
