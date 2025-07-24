@@ -91,7 +91,7 @@ const ProductsSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Premium Product Collection</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We offer a carefully curated selection of premium agricultural products including rice, pulses, fruits, vegetables, and other food commodities, each meeting international quality standards and tailored for Gulf market preferences.
+            We offer a carefully curated selection of premium agricultural products including rice, pulses, fruits, vegetables, and other food commodities, each meeting international quality standards and tailored for Worldwide market preferences.
           </p>
         </div>
 
