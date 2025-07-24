@@ -26,7 +26,7 @@ const Footer = () => {
               Baghele Enterprises
             </h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Premium Indian rice exporters specializing in high-quality rice shipments to Gulf countries. APEDA certified with valid IE Code.
+              Premium Indian rice and food exporters specializing in high-quality rice shipments to Worlrdwide. APEDA certified with valid IE Code.
             </p>
             <div className="flex items-center space-x-2 text-sm text-gray-300">
               <Award className="h-4 w-4" />
