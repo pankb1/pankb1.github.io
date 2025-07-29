@@ -29,19 +29,19 @@ const ProductsSection = () => {
       image: "dal.jpg"
     },
     {
-      name: "Fresh Onions",
+      name: "Onions",
       description: "Premium quality onions with excellent storage life and rich flavor profile.",
       features: ["Long Storage", "Rich Flavor", "Premium Grade", "Export Quality"],
       image: "onion.jpg"
     },
     {
-      name: "Fresh Oranges",
+      name: "Oranges",
       description: "Juicy and sweet oranges packed with vitamin C and natural goodness.",
       features: ["Vitamin C Rich", "Fresh & Juicy", "Premium Grade", "Export Quality"],
       image: "orange.jpg"
     },
     {
-      name: "Fresh Grapes",
+      name: "Grapes",
       description: "Premium quality grapes with excellent sweetness and perfect texture.",
       features: ["Natural Sweet", "Premium Quality", "Fresh & Crisp", "Export Grade"],
       image: "grapes.jpg"
@@ -59,19 +59,19 @@ const ProductsSection = () => {
       image: "wheat.jpg"
     },
     {
-      name: "Refined Sugar",
+      name: "Sugar",
       description: "Pure white refined sugar with consistent quality and crystal structure.",
       features: ["99.9% Pure", "Crystal White", "Food Grade", "Export Quality"],
       image: "sugar.jpg"
     },
     {
-      name: "Fresh Potatoes",
+      name: "Potatoes",
       description: "Premium quality potatoes with excellent storage life and cooking properties.",
       features: ["Long Storage", "Cooking Grade", "Premium Quality", "Export Grade"],
       image: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
-      name: "Fresh Ginger",
+      name: "Ginger",
       description: "Aromatic and nutrient-rich ginger, carefully harvested for export-quality freshness and flavor.",
       features: ["Rich Aroma", "High Oil Content", "Naturally Dried", "Export Grade"],
       image: "ginger.jpg"
