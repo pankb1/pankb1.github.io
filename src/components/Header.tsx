@@ -5,42 +5,32 @@ import { Button } from '@/components/ui/button';
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const navigation = [{
-    name: 'Home',
-    href: '#home'
-  }, {
-    name: 'About',
-    href: '#about'
-  }, {
-    name: 'Products',
-    href: '#products'
-  }, {
-    name: 'Export Process',
-    href: '#process'
-  }, {
-    name: 'Certifications',
-    href: '#certifications'
-  }, {
-    name: 'Contact',
-    href: '#contact'
-  }];
+  const navigation = [
+    { name: 'Home', href: '#home' },
+    { name: 'About', href: '#about' },
+    { name: 'Products', href: '#products' },
+    { name: 'Export Process', href: '#process' },
+    { name: 'Certifications', href: '#certifications' },
+    { name: 'Contact', href: '#contact' }
+  ];
 
-  return <header className="fixed top-0 z-50 w-full bg-gray-900/90 backdrop-blur-md shadow-sm text-white">
+  return (
+    <header className="fixed top-0 z-50 w-full bg-gray-900/90 backdrop-blur-md shadow-sm text-white">
       <div className="container mx-auto px-4">
         {/* Top bar with contact info */}
         <div className="border-b border-gray-700 py-2">
-          <div className="flex justify-between items-center text-sm text-gray-300">
-            <div className="flex items-center space-x-4">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center text-sm text-gray-300 space-y-2 md:space-y-0">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-1 sm:space-y-0 sm:space-x-4">
               <div className="flex items-center space-x-1">
                 <Mail className="h-4 w-4" />
-                <span>bagheleenterprises@gmail.com</span>
+                <span className="break-words">bagheleenterprises@gmail.com</span>
               </div>
               <div className="flex items-center space-x-1">
                 <Phone className="h-4 w-4" />
                 <span>+91 9673949795</span>
               </div>
             </div>
-            <div className="text-primary font-medium">
+            <div className="text-primary font-medium text-sm md:text-right">
               APEDA Certified • IE Code Approved
             </div>
           </div>
@@ -57,9 +47,15 @@ const Header = () => {
 
           {/* Desktop navigation */}
           <nav className="hidden md:flex space-x-8">
-            {navigation.map(item => <a key={item.name} href={item.href} className="text-gray-300 hover:text-primary transition-colors font-medium">
+            {navigation.map(item => (
+              <a
+                key={item.name}
+                href={item.href}
+                className="text-gray-300 hover:text-primary transition-colors font-medium"
+              >
                 {item.name}
-              </a>)}
+              </a>
+            ))}
           </nav>
 
           <Button asChild className="hidden md:inline-flex">
@@ -67,24 +63,39 @@ const Header = () => {
           </Button>
 
           {/* Mobile menu button */}
-          <Button variant="ghost" size="sm" className="md:hidden text-white hover:bg-gray-800" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+          <Button
+            variant="ghost"
+            size="sm"
+            className="md:hidden text-white hover:bg-gray-800"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
             {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </Button>
         </div>
 
         {/* Mobile navigation */}
-        {isMenuOpen && <div className="md:hidden border-t border-gray-700">
+        {isMenuOpen && (
+          <div className="md:hidden border-t border-gray-700">
             <nav className="py-4 space-y-2">
-              {navigation.map(item => <a key={item.name} href={item.href} className="block px-4 py-2 text-gray-300 hover:text-primary hover:bg-gray-800 rounded-md transition-colors" onClick={() => setIsMenuOpen(false)}>
+              {navigation.map(item => (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="block px-4 py-2 text-gray-300 hover:text-primary hover:bg-gray-800 rounded-md transition-colors"
+                  onClick={() => setIsMenuOpen(false)}
+                >
                   {item.name}
-                </a>)}
+                </a>
+              ))}
               <Button asChild className="w-full mt-4">
                 <a href="#contact">Get Quote</a>
               </Button>
             </nav>
-          </div>}
+          </div>
+        )}
       </div>
-    </header>;
+    </header>
+  );
 };
 
 export default Header;
